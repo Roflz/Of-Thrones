@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140AF9A11FDCD0EA000B7FD8 /* Darkness.sks in Resources */ = {isa = PBXBuildFile; fileRef = 140AF9A01FDCD0EA000B7FD8 /* Darkness.sks */; };
+		140AF9A51FDCDB0F000B7FD8 /* DarkAura.sks in Resources */ = {isa = PBXBuildFile; fileRef = 140AF9A31FDCDB0F000B7FD8 /* DarkAura.sks */; };
+		141920A31FE214FA0089BE65 /* Shade.sks in Resources */ = {isa = PBXBuildFile; fileRef = 141920A21FE214FA0089BE65 /* Shade.sks */; };
+		141920A51FE215740089BE65 /* Shade 18-08-37-563.sks in Resources */ = {isa = PBXBuildFile; fileRef = 141920A41FE215740089BE65 /* Shade 18-08-37-563.sks */; };
+		142C33421FC52B8000050337 /* BattleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 142C33411FC52B8000050337 /* BattleScene.sks */; };
+		142C33441FC52F1900050337 /* Universe1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C33431FC52F1900050337 /* Universe1.swift */; };
+		142C33461FC530AA00050337 /* BattleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C33451FC530AA00050337 /* BattleScene.swift */; };
+		143FB9351FC51DC90013D591 /* CampaignScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 143FB9341FC51DC90013D591 /* CampaignScene.sks */; };
+		143FB9371FC526CF0013D591 /* Universe1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 143FB9361FC526CF0013D591 /* Universe1.sks */; };
+		143FB93B1FC528B30013D591 /* World1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 143FB93A1FC528B30013D591 /* World1.sks */; };
+		143FB93F1FC52A250013D591 /* World1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FB93E1FC52A250013D591 /* World1.swift */; };
+		14551C9D1FDD19DB007CFFE6 /* Portal.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14551C9C1FDD19DB007CFFE6 /* Portal.sks */; };
+		14551CA11FDDB36C007CFFE6 /* Skull.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14551CA01FDDB36C007CFFE6 /* Skull.sks */; };
+		147CEAFE1FDC7E4A00B728B8 /* Shade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CEAFD1FDC7E4A00B728B8 /* Shade.swift */; };
+		1493AEFC1FC351BE00308A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493AEFB1FC351BE00308A4D /* AppDelegate.swift */; };
+		1493AEFE1FC351BE00308A4D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1493AEFD1FC351BE00308A4D /* GameScene.sks */; };
+		1493AF001FC351BE00308A4D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1493AEFF1FC351BE00308A4D /* Actions.sks */; };
+		1493AF021FC351BE00308A4D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493AF011FC351BE00308A4D /* GameScene.swift */; };
+		1493AF041FC351BE00308A4D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493AF031FC351BE00308A4D /* GameViewController.swift */; };
+		1493AF071FC351BE00308A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1493AF051FC351BE00308A4D /* Main.storyboard */; };
+		1493AF091FC351BE00308A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1493AF081FC351BE00308A4D /* Assets.xcassets */; };
+		1493AF0C1FC351BE00308A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1493AF0A1FC351BE00308A4D /* LaunchScreen.storyboard */; };
+		1493AF141FC35E2900308A4D /* CampaignScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493AF131FC35E2900308A4D /* CampaignScene.swift */; };
+		1493AF161FC3748B00308A4D /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493AF151FC3748B00308A4D /* MyUtils.swift */; };
+		14B2D2F81FDDE39A000011AF /* ClearBubblies.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14B2D2F71FDDE39A000011AF /* ClearBubblies.sks */; };
+		14B2D2FA1FDDE8D1000011AF /* Bubblies1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14B2D2F91FDDE8D1000011AF /* Bubblies1.sks */; };
+		14B2D2FC1FDDE8E5000011AF /* Bubblies2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14B2D2FB1FDDE8E5000011AF /* Bubblies2.sks */; };
+		14B2D2FE1FDDEC2F000011AF /* Squigglies1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14B2D2FD1FDDEC2F000011AF /* Squigglies1.sks */; };
+		14B2D3001FDDEC3C000011AF /* Squigglies2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14B2D2FF1FDDEC3C000011AF /* Squigglies2.sks */; };
+		14B2D3021FDDF9A6000011AF /* Bubblies3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14B2D3011FDDF9A6000011AF /* Bubblies3.sks */; };
+		14BC4E0B1FDC6F45001C6C96 /* CharacterScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14BC4E0A1FDC6F45001C6C96 /* CharacterScene.sks */; };
+		14BC4E0D1FDC72B1001C6C96 /* CharacterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC4E0C1FDC72B1001C6C96 /* CharacterScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		140AF9A01FDCD0EA000B7FD8 /* Darkness.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Darkness.sks; sourceTree = "<group>"; };
+		140AF9A31FDCDB0F000B7FD8 /* DarkAura.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DarkAura.sks; sourceTree = "<group>"; };
+		141920A21FE214FA0089BE65 /* Shade.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Shade.sks; sourceTree = "<group>"; };
+		141920A41FE215740089BE65 /* Shade 18-08-37-563.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Shade 18-08-37-563.sks"; sourceTree = "<group>"; };
+		142C33411FC52B8000050337 /* BattleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BattleScene.sks; sourceTree = "<group>"; };
+		142C33431FC52F1900050337 /* Universe1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Universe1.swift; sourceTree = "<group>"; };
+		142C33451FC530AA00050337 /* BattleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleScene.swift; sourceTree = "<group>"; };
+		143FB9341FC51DC90013D591 /* CampaignScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CampaignScene.sks; sourceTree = "<group>"; };
+		143FB9361FC526CF0013D591 /* Universe1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Universe1.sks; sourceTree = "<group>"; };
+		143FB93A1FC528B30013D591 /* World1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = World1.sks; sourceTree = "<group>"; };
+		143FB93E1FC52A250013D591 /* World1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World1.swift; sourceTree = "<group>"; };
+		14551C9C1FDD19DB007CFFE6 /* Portal.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Portal.sks; sourceTree = "<group>"; };
+		14551CA01FDDB36C007CFFE6 /* Skull.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Skull.sks; sourceTree = "<group>"; };
+		147CEAFD1FDC7E4A00B728B8 /* Shade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shade.swift; sourceTree = "<group>"; };
+		1493AEF81FC351BE00308A4D /* Of Thrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Of Thrones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1493AEFB1FC351BE00308A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1493AEFD1FC351BE00308A4D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1493AEFF1FC351BE00308A4D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1493AF011FC351BE00308A4D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1493AF031FC351BE00308A4D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1493AF061FC351BE00308A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1493AF081FC351BE00308A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1493AF0B1FC351BE00308A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1493AF0D1FC351BE00308A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1493AF131FC35E2900308A4D /* CampaignScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignScene.swift; sourceTree = "<group>"; };
+		1493AF151FC3748B00308A4D /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		14B2D2F71FDDE39A000011AF /* ClearBubblies.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ClearBubblies.sks; sourceTree = "<group>"; };
+		14B2D2F91FDDE8D1000011AF /* Bubblies1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bubblies1.sks; sourceTree = "<group>"; };
+		14B2D2FB1FDDE8E5000011AF /* Bubblies2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bubblies2.sks; sourceTree = "<group>"; };
+		14B2D2FD1FDDEC2F000011AF /* Squigglies1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Squigglies1.sks; sourceTree = "<group>"; };
+		14B2D2FF1FDDEC3C000011AF /* Squigglies2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Squigglies2.sks; sourceTree = "<group>"; };
+		14B2D3011FDDF9A6000011AF /* Bubblies3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bubblies3.sks; sourceTree = "<group>"; };
+		14BC4E0A1FDC6F45001C6C96 /* CharacterScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CharacterScene.sks; sourceTree = "<group>"; };
+		14BC4E0C1FDC72B1001C6C96 /* CharacterScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1493AEF51FC351BE00308A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140AF9A21FDCDAEB000B7FD8 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				140AF9A01FDCD0EA000B7FD8 /* Darkness.sks */,
+				140AF9A31FDCDB0F000B7FD8 /* DarkAura.sks */,
+				14551CA01FDDB36C007CFFE6 /* Skull.sks */,
+				14B2D2F71FDDE39A000011AF /* ClearBubblies.sks */,
+				14B2D2F91FDDE8D1000011AF /* Bubblies1.sks */,
+				14B2D2FB1FDDE8E5000011AF /* Bubblies2.sks */,
+				14B2D2FD1FDDEC2F000011AF /* Squigglies1.sks */,
+				14B2D2FF1FDDEC3C000011AF /* Squigglies2.sks */,
+				14B2D3011FDDF9A6000011AF /* Bubblies3.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		142C33471FC534A100050337 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1493AEFD1FC351BE00308A4D /* GameScene.sks */,
+				143FB9341FC51DC90013D591 /* CampaignScene.sks */,
+				143FB9361FC526CF0013D591 /* Universe1.sks */,
+				143FB93A1FC528B30013D591 /* World1.sks */,
+				142C33411FC52B8000050337 /* BattleScene.sks */,
+				14BC4E0A1FDC6F45001C6C96 /* CharacterScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		142C33481FC5351D00050337 /* Code for Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1493AF011FC351BE00308A4D /* GameScene.swift */,
+				1493AF131FC35E2900308A4D /* CampaignScene.swift */,
+				142C33431FC52F1900050337 /* Universe1.swift */,
+				143FB93E1FC52A250013D591 /* World1.swift */,
+				142C33451FC530AA00050337 /* BattleScene.swift */,
+				14BC4E0C1FDC72B1001C6C96 /* CharacterScene.swift */,
+			);
+			path = "Code for Scenes";
+			sourceTree = "<group>";
+		};
+		1493AEEF1FC351BE00308A4D = {
+			isa = PBXGroup;
+			children = (
+				1493AEFA1FC351BE00308A4D /* Of Thrones */,
+			);
+			sourceTree = "<group>";
+		};
+		1493AEF91FC351BE00308A4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1493AEF81FC351BE00308A4D /* Of Thrones.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1493AEFA1FC351BE00308A4D /* Of Thrones */ = {
+			isa = PBXGroup;
+			children = (
+				1493AEFB1FC351BE00308A4D /* AppDelegate.swift */,
+				142C33481FC5351D00050337 /* Code for Scenes */,
+				142C33471FC534A100050337 /* Scenes */,
+				1493AF031FC351BE00308A4D /* GameViewController.swift */,
+				1493AEFF1FC351BE00308A4D /* Actions.sks */,
+				14B2D3041FDF5688000011AF /* Character Scenes */,
+				140AF9A21FDCDAEB000B7FD8 /* Particles */,
+				14B2D3031FDF551E000011AF /* Character Nodes */,
+				14551C9C1FDD19DB007CFFE6 /* Portal.sks */,
+				1493AF051FC351BE00308A4D /* Main.storyboard */,
+				1493AF081FC351BE00308A4D /* Assets.xcassets */,
+				1493AF0A1FC351BE00308A4D /* LaunchScreen.storyboard */,
+				1493AEF91FC351BE00308A4D /* Products */,
+				1493AF0D1FC351BE00308A4D /* Info.plist */,
+				1493AF151FC3748B00308A4D /* MyUtils.swift */,
+			);
+			path = "Of Thrones";
+			sourceTree = "<group>";
+		};
+		14B2D3031FDF551E000011AF /* Character Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				147CEAFD1FDC7E4A00B728B8 /* Shade.swift */,
+			);
+			path = "Character Nodes";
+			sourceTree = "<group>";
+		};
+		14B2D3041FDF5688000011AF /* Character Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				141920A21FE214FA0089BE65 /* Shade.sks */,
+				141920A41FE215740089BE65 /* Shade 18-08-37-563.sks */,
+			);
+			path = "Character Scenes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1493AEF71FC351BE00308A4D /* Of Thrones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1493AF101FC351BE00308A4D /* Build configuration list for PBXNativeTarget "Of Thrones" */;
+			buildPhases = (
+				1493AEF41FC351BE00308A4D /* Sources */,
+				1493AEF51FC351BE00308A4D /* Frameworks */,
+				1493AEF61FC351BE00308A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Of Thrones";
+			productName = ButtonApp;
+			productReference = 1493AEF81FC351BE00308A4D /* Of Thrones.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1493AEF01FC351BE00308A4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Riley Mahn";
+				TargetAttributes = {
+					1493AEF71FC351BE00308A4D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1493AEF31FC351BE00308A4D /* Build configuration list for PBXProject "Of Thrones" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1493AEEF1FC351BE00308A4D;
+			productRefGroup = 1493AEF91FC351BE00308A4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1493AEF71FC351BE00308A4D /* Of Thrones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1493AEF61FC351BE00308A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140AF9A51FDCDB0F000B7FD8 /* DarkAura.sks in Resources */,
+				14B2D3001FDDEC3C000011AF /* Squigglies2.sks in Resources */,
+				14BC4E0B1FDC6F45001C6C96 /* CharacterScene.sks in Resources */,
+				143FB9351FC51DC90013D591 /* CampaignScene.sks in Resources */,
+				1493AF071FC351BE00308A4D /* Main.storyboard in Resources */,
+				14B2D2FE1FDDEC2F000011AF /* Squigglies1.sks in Resources */,
+				142C33421FC52B8000050337 /* BattleScene.sks in Resources */,
+				14B2D3021FDDF9A6000011AF /* Bubblies3.sks in Resources */,
+				143FB93B1FC528B30013D591 /* World1.sks in Resources */,
+				143FB9371FC526CF0013D591 /* Universe1.sks in Resources */,
+				1493AEFE1FC351BE00308A4D /* GameScene.sks in Resources */,
+				1493AF091FC351BE00308A4D /* Assets.xcassets in Resources */,
+				14551CA11FDDB36C007CFFE6 /* Skull.sks in Resources */,
+				14551C9D1FDD19DB007CFFE6 /* Portal.sks in Resources */,
+				14B2D2FA1FDDE8D1000011AF /* Bubblies1.sks in Resources */,
+				140AF9A11FDCD0EA000B7FD8 /* Darkness.sks in Resources */,
+				141920A51FE215740089BE65 /* Shade 18-08-37-563.sks in Resources */,
+				141920A31FE214FA0089BE65 /* Shade.sks in Resources */,
+				14B2D2F81FDDE39A000011AF /* ClearBubblies.sks in Resources */,
+				1493AF0C1FC351BE00308A4D /* LaunchScreen.storyboard in Resources */,
+				14B2D2FC1FDDE8E5000011AF /* Bubblies2.sks in Resources */,
+				1493AF001FC351BE00308A4D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1493AEF41FC351BE00308A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1493AF021FC351BE00308A4D /* GameScene.swift in Sources */,
+				142C33441FC52F1900050337 /* Universe1.swift in Sources */,
+				1493AF161FC3748B00308A4D /* MyUtils.swift in Sources */,
+				1493AF041FC351BE00308A4D /* GameViewController.swift in Sources */,
+				1493AF141FC35E2900308A4D /* CampaignScene.swift in Sources */,
+				147CEAFE1FDC7E4A00B728B8 /* Shade.swift in Sources */,
+				14BC4E0D1FDC72B1001C6C96 /* CharacterScene.swift in Sources */,
+				143FB93F1FC52A250013D591 /* World1.swift in Sources */,
+				142C33461FC530AA00050337 /* BattleScene.swift in Sources */,
+				1493AEFC1FC351BE00308A4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1493AF051FC351BE00308A4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1493AF061FC351BE00308A4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1493AF0A1FC351BE00308A4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1493AF0B1FC351BE00308A4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1493AF0E1FC351BE00308A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1493AF0F1FC351BE00308A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1493AF111FC351BE00308A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC7A94NBXR;
+				INFOPLIST_FILE = "Of Thrones/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cmahn.OfThrones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1493AF121FC351BE00308A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QC7A94NBXR;
+				INFOPLIST_FILE = "Of Thrones/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cmahn.OfThrones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1493AEF31FC351BE00308A4D /* Build configuration list for PBXProject "Of Thrones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1493AF0E1FC351BE00308A4D /* Debug */,
+				1493AF0F1FC351BE00308A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1493AF101FC351BE00308A4D /* Build configuration list for PBXNativeTarget "Of Thrones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1493AF111FC351BE00308A4D /* Debug */,
+				1493AF121FC351BE00308A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1493AEF01FC351BE00308A4D /* Project object */;
+}
